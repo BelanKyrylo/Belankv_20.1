@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            position: relative;
+            background: url('back.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        h1 {
+            color: #333;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .menu a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .side-image {
+            width: 100px;
+        }
+        .content {
+            flex-grow: 1;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про мне</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="contact.html">Контакти</a>
+    </div>
+    <div class="container">
+        <img src="rek.png" alt="Левая картинка" class="side-image">
+        <div class="content">
+            <h1>Декілька слів про меня</h1>
+            <p>Мене звуть Белан Кирилл, мені 37 років. Зараз працюю в ІТ в Корпорації АТБ.
+            <br>В якості хоббі маю невеликий доствід створення сайтів, як з нуля, так і на біза CMS.
+            <br>Також маю захоплення у зйомці та монтажі відео.
+            <br>    
+            <br>Дуже подобається займатися у школі та сподіваюся це допоможе мені змінити роботу)
+        </p>
+        </div>
+        <img src="rek.png" alt="Правая картинка" class="side-image">
+    </div>
+</body>
+</html>
